@@ -1,0 +1,79 @@
+fieldLayouts:
+  434b8bff-3f8f-4c04-b4e1-43001b019d73:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 68bbefa3-afa9-4b7c-b3ed-9af1d954597c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 031e8547-9981-4367-ad27-178240517ea1 # Site Introduction
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bed79a6c-46a4-4987-8602-5e26a4b71c52
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e567b6ab-3855-452b-a337-4c119dac4d62 # Body Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7f845232-5305-47c6-95b1-45c4f3f1b470
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5e76b2e3-1eae-4bbc-93f4-122fe4526b02 # Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40ee0ada-35e7-4ccb-8566-435886d1898a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 305635b8-ac46-4759-9328-aa5c29ed322c
+        userCondition: null
+handle: home
+hasTitleField: false
+name: Home
+section: 4593234a-cdd0-4c54-9931-4eb606b9e7f5 # Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: ''
